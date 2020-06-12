@@ -33,7 +33,7 @@ const errorHandler = (error, request, response, next) => {
 //   const authorization = request.get("authorization");
 //   if (authorization && authorization.toLowerCase().startsWith("bearer ")) {
 //     const token = authorization.substring(7);
-//     return response.json(token);
+//     return request.token(token);
 //   }
 //   return null;
 //   next();
